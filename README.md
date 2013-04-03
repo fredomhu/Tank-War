@@ -1,4 +1,4 @@
 Tank-War
 ========
 
-the html5 tanks war
+粗制HTML5版坦克大战,完善中...

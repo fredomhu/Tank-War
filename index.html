@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>html5版坦克大战</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body onkeydown="getCommand();">
+	<div class="container">
+		<div class="title">
+			<h2>html5版坦克大战</h2>
+		</div>
+		<canvas id="battleField" class="main" width="500" height="400">浏览器不支持canvas,请到Chrome下访问。
+		</canvas>
+		<div class="rules">
+			<span>玩法：</span>
+			<span>向上：w</span>
+			<span>向下：s</span>
+			<span>向左：a</span>
+			<span>向右：d</span>
+			<span>射击：j</span>
+		</div>
+	</div>
+	<script src="assets/js/Tank.js"></script>
+	<script src="assets/js/Hero.js"></script>
+	<script src="assets/js/EnemyTank.js"></script>
+	<script src="assets/js/Bullet.js"></script>
+	<script src="assets/js/Bomb.js"></script>
+	<script src="assets/js/functions.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

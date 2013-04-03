@@ -1,0 +1,27 @@
+.container {
+	margin: 40px auto;
+	width: 750px;
+}
+
+.title {
+	text-align: center;
+}
+
+.main {
+	background-color: #000; 
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #666;
+	box-shadow: 0 2px 6px #999;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.rules {
+	margin: 10px auto;
+	width: 400px;
+}
+
+.rules span {
+	margin-right: 8px;
+}
